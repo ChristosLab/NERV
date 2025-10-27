@@ -1,0 +1,79 @@
+# === UNITY PROJECT IGNORE RULES ===
+
+# Ignore Unity-generated folders anywhere in the repo
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/[Mm]emoryCaptures/
+**/[Rr]ecordings/
+
+# Optional: Ignore Addressables and StreamingAssets garbage
+**/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+**/[Aa]ssets/[Ss]treamingAssets/aa.meta
+**/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# JetBrains Rider plugin
+**/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Visual Studio & MonoDevelop project files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Ignore meta files generated for debug data (but NOT normal Unity asset .meta files!)
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Crash logs & system info
+**/sysinfo.txt
+crashlytics-build.properties
+
+# Builds & Unity packages
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Editor/IDE clutter
+.vs/
+.gradle/
+.consulo/
+
+# System clutter
+.DS_Store
+Thumbs.db
+
+# === CUSTOM PROJECT STRUCTURE IGNORE RULES ===
+
+# Ignore non-Unity output dirs, logs, etc. you may create
+/Output/
+/Logs/
+/__pycache__/
+/*.log
+
+# (Optional) Ignore compiled Python/MATLAB files
+*.pyc
+*.pyo
+*.mex*
+
+# === COMMENTED SUGGESTIONS ===
+
+# Uncomment if using AssetStore tools and want to ignore them
+# **/[Aa]ssets/AssetStoreTools*
+
